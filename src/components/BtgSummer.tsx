@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./sass/BtgSummer.scss";
 import SvgMorphe from "./SvgMorphe";
-import logo from "../img/logo.svg";
+import logo from "../img/logo-summer_4.gif";
 import Jungle from "./Jungle";
 
 const BtgSummer: FC = () => {
