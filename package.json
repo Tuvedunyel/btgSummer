@@ -1,0 +1,28 @@
+{
+  "name": "btg-summer",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Montoya Grégoire",
+  "description": "Projet pour l'entreprise BTG Communication",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "framer-motion": "^6.3.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  }
+}
