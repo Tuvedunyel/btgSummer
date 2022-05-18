@@ -1,0 +1,25 @@
+body {
+  background: #fde6d6;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: fit-content;
+  height: fit-content;
+}
+
+#wave {
+  width: 900px;
+}
