@@ -42,7 +42,7 @@
   height: 300px;
   bottom: -5%;
   left: -18%;
-  z-index: 10
+  z-index: 2
 }
 
 .orangeLeaf {
@@ -51,6 +51,169 @@
   height: 200px;
   bottom: 5%;
   left: -7%;
-  transform: rotate(35deg);
   z-index: 1;
+}
+
+.blueBush {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  bottom: -17%;
+  left: -2%;
+  z-index: 3;
+
+  &.second {
+    bottom: 10%;
+    transform: rotate(60deg);
+    left: -10%;
+  }
+
+  &.bottomRight {
+    width: 350px;
+    height: 350px;
+    left: unset;
+    right: -18%;
+    bottom: 2%;
+    transform: rotate(10deg);
+    z-index: 4;
+  }
+}
+
+.orangeRedBush {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: -25%;
+  left: 3%;
+  z-index: 4;
+}
+
+.whiteBush {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+  bottom: -15%;
+  left: 12%;
+
+  &.topRight {
+    bottom: unset;
+    left: unset;
+    right: -1%;
+    top: -15%;
+    transform: rotate(180deg);
+  }
+
+  &.topMiddle {
+    bottom: unset;
+    top: -24%;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+    width: 280px;
+    height: 280px;
+    transform: rotate(170deg);
+  }
+}
+
+.planteVerteOrange {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  bottom: -33%;
+  left: 30%;
+  z-index: 100;
+}
+
+.littleOrangeLeaf {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  bottom: -4%;
+  left: 30%;
+  z-index: 101;
+}
+
+.BlueLeaf {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: -25%;
+    left: 59%;
+    z-index: 5;
+}
+
+.orangeBush {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    bottom: -10%;
+    right: -5%;
+    z-index: 4;
+}
+
+.whiteLeaf {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: rotate(65deg);
+    bottom: -5%;
+    right: -5%;
+    z-index: 3;
+}
+
+.redLeaf {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -10%;
+    right: -15%;
+    z-index: 4;
+}
+
+.blueGreen {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -5%;
+  right: 20%;
+  margin-inline: auto;
+  z-index: 5;
+}
+
+.orangeLeafImg {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: -33%;
+    left: 5%;
+    z-index: 2;
+}
+
+.redBush {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -25%;
+    left: -5%;
+    z-index: 1;
+}
+
+.whiteLeaf.topLeft {
+  position: absolute;
+    width: 350px;
+    height: 350px;
+    transform: rotate(5deg);
+    top: -20%;
+    left: -12%;
+    z-index: 0;
+}
+
+.OrangeBush {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    bottom: -2%;
+    left: -5%;
+    z-index: 1;
 }
